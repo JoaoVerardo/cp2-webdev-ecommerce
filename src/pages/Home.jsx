@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import Titulo from "../components/titulo";
-import Card from "../components/card";
+import Titulo from "../components/Titulo";
+import Card from "../components/Card";
 
 export default function Home() {
   const [products, setProducts] = useState([])
@@ -77,11 +77,10 @@ export default function Home() {
                 />
               )
               : null
-          )
+          )}
 
         </div>
       </section >
-        }
     </>
   );
 }
